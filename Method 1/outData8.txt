@@ -1,0 +1,16 @@
+on start:
+Initialise buffers to 0, 0, 0
+
+else if validIn:
+	shift the buffers
+	if buffer[1] == 0 && buffer[2] != 0:
+		buffer[1] = avg(buffer[0], buffer[2])
+        validOut = 1'b1
+    
+    for (i < 8)
+	    output = buffer[1][i * 8 +: 8]
+        print output
+
+
+// check when to stop ignoring 0's in the input
+// this will occur when buffer[0] 
