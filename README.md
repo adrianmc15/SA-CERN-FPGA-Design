@@ -20,7 +20,7 @@ After the installation of `iverilog`, you can run the project easily. Each of th
 
 Navigate to the directory of the method you want to execute using the `cd` command:
 
-```cd 'Method 2 (Final)'```
+```cd 'Method 2 (Final)' ```
 
 Then, simply run `make` from the respective directory:
 
